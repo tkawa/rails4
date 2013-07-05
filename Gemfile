@@ -1,23 +1,22 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
-gem 'rails', '4.0.0.rc2'
+gem 'rails', '4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
-gem 'jbuilder', '~> 1.0.1'
+gem 'jbuilder', '~> 1.2'
+gem 'sass-rails',   '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'uglifier', '>= 1.3.0'
 gem 'haml-rails'
 gem 'figaro'
 gem 'warden'
 gem 'sqlite3'
-gem 'simple_form', '3.0.0.rc'
+gem 'simple_form', '>= 3.0.0.rc'
 gem 'active_decorator'
 gem 'rails-i18n'
 gem 'thin'
-
-gem 'sass-rails', '~> 4.0.0.rc2'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0.rc2'
 
 group :doc do
   gem 'sdoc', require: false
@@ -39,6 +38,7 @@ group :test, :development do
   gem 'shoulda-matchers'
 
   # Capybara
+  gem 'nokogiri', '1.5.10' # for :eq support
   gem 'capybara'
   gem 'poltergeist'
   gem 'launchy'
