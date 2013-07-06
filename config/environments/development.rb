@@ -27,6 +27,6 @@ Genuineblue::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  ActionMailer::Base.delivery_method = :file
+  ActionMailer::Base.delivery_method = :letter_opener
   ActionMailer::Base.perform_deliveries = true
 end
