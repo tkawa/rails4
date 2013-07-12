@@ -81,5 +81,7 @@ RSpec.configure do |config|
   # factory_girl
   config.include FactoryGirl::Syntax::Methods
 
-  FactoryGirl.reload
+  config.before(:all) do
+    FactoryGirl.reload
+  end
 end
