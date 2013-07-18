@@ -35,6 +35,6 @@ module Genuineblue
       g.stylesheets false
     end
 
-    config.action_mailer.default_url_options = { host: Figaro.env.host }
+    config.action_mailer.default_url_options = { host: ENV['HOST'] }
   end
 end
