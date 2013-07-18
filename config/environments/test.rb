@@ -42,5 +42,5 @@ Genuineblue::Application.configure do
   config.assets.prefix = 'assets-test'
 
   # capybara
-  config.action_controller.asset_host = Figaro.env.test_asset_host if Figaro.env.test_asset_host.present?
+  config.action_controller.asset_host = ENV['TEST_ASSET_HOST'] if ENV['TEST_ASSET_HOST'].present?
 end
