@@ -17,7 +17,7 @@ gem 'simple_form', '>= 3.0.0.rc'
 gem 'active_decorator'
 gem 'rails-i18n'
 gem 'thin'
-gem 'compass-rails', github: 'milgner/compass-rails', branch: 'rails4'
+gem 'compass-rails', github: 'Compass/compass-rails', branch: 'rails4-hack'
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 gem 'bootstrap_helper'
 
