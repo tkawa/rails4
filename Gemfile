@@ -71,7 +71,7 @@ group :test, :development do
   gem 'rails-db-resetup'
 end
 
-group :production do
+group :production, :staging do
   gem 'rails_12factor'
   gem 'newrelic_rpm'
 end

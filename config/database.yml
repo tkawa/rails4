@@ -8,3 +8,6 @@ test:
 production:
   <<: *development
   database: genuineblue_production
+staging:
+  <<: *development
+  database: genuineblue_staging
