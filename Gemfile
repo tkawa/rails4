@@ -70,3 +70,8 @@ group :test, :development do
   # Reset DB
   gem 'rails-db-resetup'
 end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'newrelic_rpm'
+end
