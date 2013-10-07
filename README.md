@@ -16,6 +16,12 @@ cp config/application.yml.example config/application.yml
 
 Fill in api credential
 
+```
+rake secret
+```
+
+Fill in SECRET_TOKEN by the key above result.
+
 ## Start foreman
 
 ```
