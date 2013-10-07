@@ -19,7 +19,6 @@ gem 'rails-i18n'
 gem 'thin'
 gem 'compass-rails', github: 'Compass/compass-rails', branch: 'rails4-hack'
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
-gem 'bootstrap_helper'
 
 group :doc do
   gem 'sdoc', require: false
