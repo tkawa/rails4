@@ -7,3 +7,5 @@ test:
   TEST_ASSET_HOST: ''
   # forman
   #TEST_ASSET_HOST: 'http://localhost:3000'
+staging:
+  NEW_RELIC_APP_NAME: 'genuineblue-stg'
