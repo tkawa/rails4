@@ -41,20 +41,20 @@ group :test, :development do
   gem 'shoulda-matchers'
 
   # Capybara
-  gem 'nokogiri', '1.5.10' # for :eq support
+  gem 'nokogiri'
   gem 'capybara'
   gem 'poltergeist'
   gem 'launchy'
 
   # Debug tool
-  gem 'pry'
+  gem 'pry', '~> 0.9.12'
   gem 'tapp'
   gem 'awesome_print'
-  gem 'spring', github: 'jonleighton/spring'
+  gem 'spring'
 
   # Testing tools
-  gem "database_cleaner", '1.0.0.RC1'
-  gem "brakeman"
+  gem 'database_cleaner'
+  gem 'brakeman'
 
   # Capistrano
   gem 'capistrano'
