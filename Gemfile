@@ -13,7 +13,7 @@ gem 'haml-rails'
 gem 'figaro'
 gem 'warden'
 gem 'sqlite3'
-gem 'simple_form'
+gem 'simple_form', github: 'digitalcake/simple_form' # for bootstrap3
 gem 'active_decorator'
 gem 'rails-i18n'
 gem 'thin'

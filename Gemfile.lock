@@ -7,6 +7,14 @@ GIT
       compass (>= 0.12.2, < 0.14)
 
 GIT
+  remote: git://github.com/digitalcake/simple_form.git
+  revision: 16978c7d18cbc83438735c138563804db36a0531
+  specs:
+    simple_form (3.0.0)
+      actionpack (>= 4.0.0, < 4.1)
+      activemodel (>= 4.0.0, < 4.1)
+
+GIT
   remote: git://github.com/jonleighton/spring.git
   revision: 764b599bb93509e85c9d1968a90de82bbb905602
   specs:
@@ -254,9 +262,6 @@ GEM
     sexp_processor (4.2.1)
     shoulda-matchers (2.2.0)
       activesupport (>= 3.0.0)
-    simple_form (3.0.0)
-      actionpack (>= 4.0.0, < 4.1)
-      activemodel (>= 4.0.0, < 4.1)
     slim (1.3.9)
       temple (~> 0.6.3)
       tilt (~> 1.3, >= 1.3.3)
@@ -340,7 +345,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.0)
   sdoc
   shoulda-matchers
-  simple_form
+  simple_form!
   spring!
   sqlite3
   tapp
