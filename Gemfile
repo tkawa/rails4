@@ -17,7 +17,7 @@ gem 'simple_form', github: 'digitalcake/simple_form' # for bootstrap3
 gem 'active_decorator'
 gem 'rails-i18n'
 gem 'thin'
-gem 'compass-rails', github: 'Compass/compass-rails', branch: 'rails4-hack'
+gem 'compass-rails', github: 'Compass/compass-rails'
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 
 group :doc do
