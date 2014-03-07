@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
-gem 'rails', '4.0.1'
+gem 'rails', '4.0.3'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
@@ -11,14 +11,13 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'haml-rails'
 gem 'figaro'
-gem 'warden'
 gem 'sqlite3'
-gem 'simple_form', github: 'digitalcake/simple_form' # for bootstrap3
+gem 'simple_form'
 gem 'active_decorator'
 gem 'rails-i18n'
 gem 'thin'
-gem 'compass-rails', github: 'Compass/compass-rails'
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
+gem 'compass-rails'
+gem 'bootstrap-sass'
 
 group :doc do
   gem 'sdoc', require: false
@@ -29,6 +28,8 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'letter_opener'
+  gem 'quiet_assets'
+  gem 'html2haml', '~> 2.0.0.beta.1'
 end
 
 group :test, :development do
